@@ -1,0 +1,28 @@
+DB :ONLINE_BUDGETING_TRAINING_PLATFORM
+USERNAME:EMMANUEL or root
+PASSWORD:222004496
+LOGIN ON WEB SITE BY ADMIN
+EMAIL:ishimweemmy811@gmail.com
+Password:ishimwe12345
+Project Name: Online Budgeting Training Platform
+The Online Budgeting Training Platform is designed to provide users with comprehensive training on managing personal finances and budgeting. It offers various courses, tutorials, and interactive tools to help users improve their budgeting skills.
+Login Information:
+Users: General users can sign up to access training materials and track their progress.
+Sign Up: Users need to create an account by providing a username, email, and password.
+Login: After registration, users can log in with their username and password to access the platform.
+Admin: The system admin has full access to manage the platform, including user accounts, training content, and system settings.
+Admin Login: Admin uses specific credentials, email:ishimweemmy811@gmail.com and password:ishimwe12345 provided during the initial setup to access the admin dashboard.
+User Access:
+General Users:have to create account by register and hence after creation and register. have to login and do the below quizez and attend trainings etc. 
+Access training modules, quizzes, and budgeting tools.
+Track personal progress and receive certificates of completion for courses.
+Users have limited access and cannot modify system settings or other users' data.
+Admin Access:
+Admin Dashboard:
+Manage user accounts: Create, edit, delete, and view user profiles.
+Manage content: Add, update, and remove training materials and courses.
+Security:
+User passwords are securely hashed and stored.
+Admin has the ability to reset user passwords and lock/unlock accounts if necessary.
+Instructor: Have ability to add course and assessment and etc.so to be an instructor you have to sign up and create an account so that the its direct you to the login page of an instructor and hences instructors get access to above roles.
+so whatever done will be going into the database and then admin will display it.
