@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Budgeting Training Platform</title>
+    <!-- Add CSS links for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      * Styles for contact cards */
+
+      .container{
+        max-width: 800px;
+        background-color: rgb(254, 205, 205);
+
+        align-items: center;
+      }
+.contact-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+  
+    margin-left: 180px;
+    background-color: #fac2c2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+          <a href="index.html" class="navbar-brand">OBTP</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="instructors_login.php">Instructor</a></li>
+            <li><a href="admin_login.php">Admin</a></li>
+            <li class="dropdown">
+              <a href="login.html">Login &#9662;</a>
+              <div class="dropdown-content">
+                <a href="registration.html">Register</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="container">
+            <h1 style="text-align: center;">Contact Us</h1>
+            <div class="contact-cards">
+                <div class="card">
+                    <h2>Customer Support</h2>
+                    <p>If you have any questions or need assistance, our customer support team is here to help you.</p>
+                    <p>Email: support@budgetingplatform.com</p>
+                    <p>Phone: +250 785 237 426</p>
+                </div>
+                <div class="card">
+                    <h2>Technical Support</h2>
+                    <p>For technical issues or inquiries regarding our platform, please contact our technical support team.</p>
+                    <p>Email: techsupport@budgetingplatform.com</p>
+                    <p>Phone: +250 785 237 426</p>
+                </div>
+                <div class="card">
+                    <h2>Business Inquiries</h2>
+                    <p>For business partnerships, collaborations, or other inquiries, please contact our business development team.</p>
+                    <p>Email: business@budgetingplatform.com</p>
+                    <p>Phone: +250 793 307 516</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container2">
+            <div class="left-part">
+                <p class="mb-0">Designed by Budgeting Experts</p>
+                <p class="mb-0">UR, RN1-HUYE</p>
+                <p class="mb-0">contact@budgetingplatform.com</p>
+                <p class="mb-0">+250 785 237 426</p>
+            </div>
+            <div class="right-part">
+                <p class="mb-0">© 2024 Budgeting Platform. All rights reserved.</p>
+                <p class="mb-0">Designed by: <a href="#" target="_blank" class="fw-bold">Emmanuel</a></p>
+                <p class="mb-0">Distributed by: <a href="#" target="_blank" class="fw-bold">Emmanuel</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add JavaScript links if needed -->
+    <script src="script.js"></script>
+</body>
+
+</html>
